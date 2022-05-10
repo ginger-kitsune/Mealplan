@@ -14,16 +14,16 @@
   "author": "",
   "license": "ISC",
   "browserslist": [
-    "last 2 chrome versions",
-    "last 2 firefox versions",
-    "last 2 ios versions"
+    ">1%"
   ],
   "devDependencies": {
-    "@babel/core": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
     "autoprefixer": "^9.7.1",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.27.7",
+    "core-js": "^3.22.4",
     "fs": "^0.0.1-security",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
@@ -35,5 +35,8 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^4.9.2",
     "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }
